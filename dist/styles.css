@@ -1,0 +1,84 @@
+body, html {
+    margin: 0;
+    background-color: lightgreen;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    margin-top: 25px;
+}
+ul {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.todo-div {
+    display: flex;
+    border: 3px solid gray;
+    background-color: silver;
+    color:black;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+}
+ul li:nth-child(1) {
+    margin-top: 25px;
+}
+
+.todo-div p {
+    font-size: large;
+    width: 45%;
+    text-align:left;
+    
+}
+
+.button-div {
+    display: flex;
+    gap: 10px;
+    width: 45%;
+    justify-content: flex-end;
+}
+
+.delete-button {
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
+.complete-button {
+    background-color: green;
+}
+
+
+#total-tasks {
+    font-style: italic;
+}
+
+#stat-div p {
+    font-style: italic;
+}
+
+input, #button {
+    border: 2px solid gray;
+    font-style: italic;
+}
+
+#clear-button {
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    margin-top: 5%;
+}
